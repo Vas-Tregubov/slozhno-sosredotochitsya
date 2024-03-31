@@ -2,3 +2,19 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --main-color: #FFF1F7;
+  --accent-color: #FF8DCB;
+  --text-color: #353430;
+  --hero-page-text-color: #FFC2E6;
+  --main-font-size: 18px;
+  --main-font-family: 'IBM Plex mono', sans-serif;
+  --titles-font-family: 'IBM Plex mono', sans-serif;
+  --main-font-size: 18px;
+  --titles-font-size: 18px;
+  --inside-block-paragraph-margin: 10px;
+  --inside-block-header-margin: 20px;
+  --block-to-block-margin: 50px;
+  --hero-page-first-block-margin: 40px;
+}

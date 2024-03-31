@@ -3,3 +3,7 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
+
+.header__theme-menu-list {
+  list-style-type: none; 
+}
