@@ -7,3 +7,33 @@
 .header__theme-menu-list {
   list-style-type: none; 
 }
+
+.header__theme-menu-button {
+  background-color: transparent;
+  border-style: none;
+  margin: 0;
+  font-family: var(--main-font-family);
+  font-size: var(--main-font-size);
+  font-weight: normal;
+  line-height: 1.4;
+  color: var(--text-color);
+  outline: none;
+  width: 70px;
+  padding: auto 25px;
+  text-transform: lowercase;
+}
+
+.header__theme-menu-button:default {
+  outline: var(--text-color) solid 1px;
+}
+
+.header__theme-menu-button:hover {
+  outline: rgba(50, 49, 45, 0.4) solid 1px;
+  border: none;
+}
+
+.header__theme-menu-button:focus-visible {
+  border-color: var(--text-color);
+  border-bottom: 1px solid;
+  margin-bottom: -1px;
+}
