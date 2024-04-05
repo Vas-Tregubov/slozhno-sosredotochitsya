@@ -4,8 +4,10 @@
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
 
+/* UI-Kit */
+
 .header__theme-menu-list {
-  list-style-type: none; 
+  list-style-type: none;
 }
 
 .header__theme-menu-button {
@@ -17,7 +19,7 @@
   font-weight: normal;
   line-height: 1.4;
   color: var(--text-color);
-  outline: none;
+  outline: transparent;
   width: 70px;
   padding: auto 25px;
   text-transform: lowercase;
@@ -36,4 +38,78 @@
   border-color: var(--text-color);
   border-bottom: 1px solid;
   margin-bottom: -1px;
+}
+
+/* HEADER  */
+
+.header {
+  background-image: url(../images/cover-image-light.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr );
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.header__theme-menu-list {
+  display: flex;
+  justify-content: center;
+}
+
+.header__header-title {
+  font-family: var(--titles-font-family), sans-serif;
+  font-size: var(--header-title-font-size);
+  color: var(--hero-page-text-color);
+  text-transform: lowercase;
+  grid-row: 2 / span 1;
+  grid-column: 1 / span 2;
+}
+
+.header__lead-paragraph {
+  grid-row: 3/4;
+  background-color: var(--accent-color);
+  font-family: var(--main-font-family), sans-serif;
+  font-size: var(--main-font-size);
+  color: var(--text-color);
+}
+
+@media (width < 768px) {
+  .header {
+    block-size: max(100vh, 668px);
+  }
+  @supports (block-size: 100svh) {
+    .header {
+      block-size: max(100svh, 668px);
+    }
+  }
+
+  .header__theme-menu-list {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+}
+
+@media (768px <= width < 1024px) {
+  .header {
+    block-size: max(100vh, 1024px);
+  }
+  @supports (block-size: 100svh) {
+    .header {
+      block-size: max(100svh, 1024px);
+    }
+  }
+
+  .header__theme-menu-list {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+}
+
+@media (width >= 1024px) {
+  .header {
+    block-size: max(100vh, 768px);
+  }
 }
