@@ -10,7 +10,8 @@
   --hero-page-text-color: #FFC2E6;
   --main-font-family: 'IBM Plex mono', sans-serif;
   --titles-font-family: 'IBM Plex mono', sans-serif;
-  --header-title-font-size: clamp(7.25rem, 6.3477rem + 3.8498vw, 9.8125rem);
+  --header-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --header-title-font-size-L: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --main-font-size: 18px;
   --titles-font-size: 18px;
   --spacing: 10px;
