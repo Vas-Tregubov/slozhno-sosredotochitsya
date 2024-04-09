@@ -7,6 +7,7 @@
   --main-color: #FFF1F7;
   --accent-color: #FF8DCB;
   --text-color: #353430;
+  --outline-color: rgba(50, 49, 45, 0.4); 
   --hero-page-text-color: #FFC2E6;
   --main-font-family: 'IBM Plex mono', sans-serif;
   --titles-font-family: 'IBM Plex mono', sans-serif;
@@ -15,7 +16,5 @@
   --main-font-size: 18px;
   --titles-font-size: 18px;
   --spacing: 10px;
-  --spacing-L: var(--spacing) * 2;
-  --spacing-XL: var(--spacing) * 5;
-  --hero-page-spacing: var(--spacing) * 4;
+  /* --spacing-XL: var(--spacing) * 5; */
 }
