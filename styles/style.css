@@ -1,5 +1,3 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
   inline-size: 100%;
   background-image: url(../images/cover-image-light.png);
@@ -7,7 +5,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  font-family: var(--main-font-family), sans-serif;
+  font-size: var(--main-font-size);
+  color: var(--text-color);
 }
 
 /* UI-Kit */
@@ -50,34 +50,25 @@
 
 .lead-title-decor {
   font-weight: bold;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
 }
 
 .title-decor {
   background-color: var(--accent-color);
   font-weight: bold;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
 }
 
 .subtitle-decor {
   background-color: var(--accent-color);
   font-weight: normal;
-}
-
-/* .inner-text-margin {
-  margin-bottom: 10px;
-}
-
-.outside-text-margin {
-  margin-bottom: var(--spacing) * 5;
-}
-
-.section-margin {
-  margin-bottom: var(--spacing-XL);
-} */
-
-.text {
-  font-family: var(--main-font-family), sans-serif;
-  font-size: var(--main-font-size);
-  color: var(--text-color);
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
 }
 
 .title {
@@ -194,7 +185,6 @@
 }
 
 @media (width < 768px) {
-  
   .header__theme-menu {
     align-content: center;
   }
@@ -216,7 +206,6 @@
 }
 
 @media (768px <= width < 1024px) {
-  
   .header__theme-menu {
     align-content: center;
   }
@@ -237,7 +226,6 @@
 }
 
 @media (width >= 1024px) {
-  
   .title {
     font-size: var(--header-title-font-size-L);
   }
@@ -251,10 +239,42 @@
 /* MAIN CONTENT */
 
 .main {
+  display: grid;
   background: var(--main-color);
   padding: 0 10px;
 }
 
+.main__image-set_image {
+  width: 100%;
+}
+
+.main__content_content-gap {
+  display: grid;
+  gap: calc(var(--spacing) * 2);
+}
+
+.article-gap {
+  display: grid;
+  gap: var(--spacing);
+}
+
+@media (width < 768px) {
+  .main {
+    gap: calc(var(--spacing) * 5);
+  }
+}
+
+@media (768px <= width < 1024px) {
+  .main {
+    gap: calc(var(--spacing) * 8);
+  }
+}
+
+@media (width >= 1024px) {
+  .main {
+    gap: calc(var(--spacing) * 8);
+  }
+}
 
 /* FOOTER */
 
@@ -270,5 +290,5 @@
 
 .footer__footer-title {
   text-shadow: 2px 2px 0 var(--accent-color);
+  justify-self: center;
 }
-
