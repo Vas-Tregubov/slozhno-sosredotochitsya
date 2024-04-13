@@ -17,6 +17,7 @@
   --main-font-size: 18px;
   --titles-font-size: 18px;
   --spacing: 10px;
+  --background: url(../images/cover-image-light.png);
 }
 
 @media (prefers-color-scheme: light) {
@@ -33,11 +34,12 @@
   --main-font-size: 18px;
   --titles-font-size: 18px;
   --spacing: 10px;
+  --background: url(../images/cover-image-light.png);
   }
 }
 
 .theme_light .page {
-  background-image: url(../images/cover-image-light.png);
+  background-image: var(--background);
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
