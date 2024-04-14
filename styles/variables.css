@@ -4,16 +4,16 @@
 */
 
 :root {
-  --main-color: #FFF1F7;
-  --accent-color: #FF8DCB;
+  --main-color: #fff1f7;
+  --accent-color: #ff8dcb;
   --text-color: #353430;
-  --outline-color: rgba(50, 49, 45, 0.4); 
-  --hero-page-text-color: #FFC2E6;
-  --main-font-family: 'IBM Plex mono', sans-serif;
-  --titles-font-family: 'IBM Plex mono', sans-serif;
+  --hero-page-text-color: #ffc2e6;
+  --main-font-family: "IBM Plex mono", sans-serif;
+  --titles-font-family: "IBM Plex mono", sans-serif;
   --header-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --header-title-font-size-L: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --main-font-size: 18px;
+  --outline-color: rgba(50, 49, 45, 0.4);
   --titles-font-size: 18px;
   --spacing: 10px;
   --background: url(../images/cover-image-light.png);

@@ -151,7 +151,6 @@
   grid-template-rows: 1fr max-content 1fr;
   padding: 10px;
   position: relative;
-  block-size: 100svh;
   block-size: 100vh;
   margin-block-end: calc(var(--spacing) * 6);
 }
@@ -386,7 +385,6 @@
 /* FOOTER */
 
 .footer {
-  block-size: 100svh;
   block-size: 100vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
