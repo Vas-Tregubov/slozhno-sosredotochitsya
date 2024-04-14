@@ -39,7 +39,7 @@
 /* COMMON CLASSES */
 
 .theme_dark .lead-title-decor {
-  color: var(--main-color);
+  color: var(--accent-color);
 }
 
 .theme_dark .title-decor {
