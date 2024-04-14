@@ -12,10 +12,6 @@
 
 /* UI-Kit */
 
-.header__theme-menu-list {
-  list-style-type: none;
-}
-
 .header__theme-menu-button {
   background-color: transparent;
   border-style: none;
@@ -89,9 +85,6 @@
   .title {
     margin-block-start: calc(var(--spacing) * 4);
   }
-}
-
-@media (768px <= width < 1024px) {
 }
 
 @media (width >= 1024px) {
@@ -171,6 +164,7 @@
 .header__theme-menu-list {
   display: flex;
   justify-content: center;
+  list-style-type: none;
 }
 
 .header__header-title {
