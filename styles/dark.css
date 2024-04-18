@@ -1,21 +1,33 @@
 .page.theme_dark {
-  background-image: var(--background);
   --main-color: #000028;
   --accent-color: #ff0070;
   --text-color: #f1b2ce;
   --outline-color: rgba(255, 0, 112, 0.4);
+  --active-outline-color: #ff0070;
+  --menu-button-color: #ff0070;
   --hero-page-text-color: #db00ff;
   --background: url(../images/cover-image-dark.png);
+  --decor-label-visibility: visible;
+  --lead-title-color: #ff0070;
+  --title-color: #000028;
+  --subtitle-color: #000028;
+  --decorated-zone-color: #ff0070;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    background-image: var(--background);
     --main-color: #000028;
     --accent-color: #ff0070;
     --text-color: #f1b2ce;
     --outline-color: rgba(255, 0, 112, 0.4);
+    --active-outline-color: #ff0070;
+    --menu-button-color: #ff0070;
     --hero-page-text-color: #db00ff;
     --background: url(../images/cover-image-dark.png);
+    --decor-label-visibility: visible;
+    --lead-title-color: #ff0070;
+    --title-color: #000028;
+    --subtitle-color: #000028;
+    --decorated-zone-color: #ff0070;
   }
 }

@@ -8,12 +8,21 @@
   --accent-color: #ff8dcb;
   --text-color: #353430;
   --hero-page-text-color: #ffc2e6;
-  --font-family: "IBM Plex mono";
+  --font-family: "IBM Plex mono", Courier, monospace;
   --header-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --header-title-font-size-L: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --main-font-size: 18px;
   --outline-color: rgba(50, 49, 45, 0.4);
+  --active-outline-color: #353430;
+  --menu-button-color: #353430;
   --titles-font-size: 18px;
   --spacing: 10px;
   --background: url(../images/cover-image-light.png);
+  --decor-label-visibility: visible;
+  --lead-title-color: inherit;
+  --title-color: inherit;
+  --subtitle-color: inherit;
+  --decorated-zone-color: #353430;
+  --g: calc((100% - 60px) / 3);
+  --b: calc(((100% - 60px) / 3) * 2);
 }
