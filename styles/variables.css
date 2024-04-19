@@ -23,6 +23,4 @@
   --title-color: inherit;
   --subtitle-color: inherit;
   --decorated-zone-color: #353430;
-  --g: calc((100% - 60px) / 3);
-  --b: calc(((100% - 60px) / 3) * 2);
 }
