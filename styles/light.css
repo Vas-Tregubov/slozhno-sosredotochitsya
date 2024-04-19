@@ -16,18 +16,18 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-  --main-color: #fff1f7;
-  --accent-color: #ff8dcb;
-  --text-color: #353430;
-  --hero-page-text-color: #ffc2e6;
-  --outline-color: rgba(50, 49, 45, 0.4);
-  --active-outline-color: #353430;
-  --menu-button-color: #353430;
-  --background: url(../images/cover-image-light.png);
-  --decor-label-visibility: hidden;
-  --lead-title-color: inherit;
-  --title-color: inherit;
-  --subtitle-color: inherit;
-  --decorated-zone-color: #353430;
+    --main-color: #fff1f7;
+    --accent-color: #ff8dcb;
+    --text-color: #353430;
+    --hero-page-text-color: #ffc2e6;
+    --outline-color: rgba(50, 49, 45, 0.4);
+    --active-outline-color: #353430;
+    --menu-button-color: #353430;
+    --background: url(../images/cover-image-light.png);
+    --decor-label-visibility: hidden;
+    --lead-title-color: inherit;
+    --title-color: inherit;
+    --subtitle-color: inherit;
+    --decorated-zone-color: #353430;
   }
 }
